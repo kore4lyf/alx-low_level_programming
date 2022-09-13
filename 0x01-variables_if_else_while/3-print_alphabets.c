@@ -1,17 +1,20 @@
-/** this is a short description for a program to print plain text/file size */
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - takes unspecificed number of arguments and returns value on
- * Description: longer things about the main function
+ * main - entry point
+ * Description: prints the alphabet in lowercase, then uppercase
  * Return: 0
- */
+*/
 int main(void)
 {
-	int al;
 
-	for (al = 'a'; al <= 'z'; al++)
-		putchar(al);
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	putchar('\n');
-
 	return (0);
 }
