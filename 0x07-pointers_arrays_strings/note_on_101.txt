@@ -1,0 +1,10 @@
+1. Use this to open you vi *vi -b 101-crackme_password*
+
+2. Then on your command mood, type *:set binary* and hit enter, followed by *:set noeol* and hit enter
+
+
+3. Then use the insert mode and type abc123
+
+4. esc :wq hit enter
+
+Then git add . etc
